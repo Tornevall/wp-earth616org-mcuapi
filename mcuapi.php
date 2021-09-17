@@ -10,6 +10,7 @@
  * Domain Path:
  */
 
+require_once(__DIR__ . '/vendor/autoload.php');
 require_once(sprintf('%s/%s', __DIR__, '/Earth_MCU_Widget.php'));
 add_action('widgets_init', 'earth616_mcu_widget');
 

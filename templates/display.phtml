@@ -1,0 +1,18 @@
+<?php
+
+if (!isset($apiResponse)) {
+    $apiResponse = [];
+}
+
+printf(
+    '%s%s%s',
+    isset($before_widget) ? $before_widget : '',
+    isset($title) ? $title : '',
+    isset($after_title) ? $after_title : ''
+);
+
+// $apiResponse
+echo apply_filters('earth_next_template', isset($nextInfoTemplate) ? $nextInfoTemplate : '');
+?>
+
+<?php echo isset($after_widget) ? $after_widget : '' ?>

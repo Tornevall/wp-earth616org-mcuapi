@@ -1,0 +1,21 @@
+{
+    "name": "tornevall/earth616org-mcuapi",
+    "description": "Earth616.ORG MCU API Plugin",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Tomas Tornevall",
+            "email": "thorne@tornevall.net"
+        }
+    ],
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "require": {
+        "tornevall/tornelib-php-utils": ">=6.1.11",
+        "ext-json": "*"
+    }
+}

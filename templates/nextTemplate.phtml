@@ -1,0 +1,24 @@
+<?php
+
+if (isset($title)) {
+    if (isset($tv) && (bool)$tv) {
+        $imdbUrl = $imdbepisode ?? '';
+    } else {
+        $imdbUrl = $imdb ?? '';
+    }
+
+    ?>
+    <div class="container container-fluid">
+        <div style="font-size: 18px;font-weight: bold;" class="label label-success">Up next ...</div>
+        <div style="font-size: 16px;font-weight: bold;"><a href="<?php echo $imdbUrl; ?>"><?php echo $title ?></a></div>
+        <div>
+            <a href="https://mcu.earth616.org/pages/viewpage.action?pageId=82018343"
+               target="_blank"
+               style="text-decoration: none;">
+                Information provided by earth616.org
+            </a>
+        </div>
+    </div>
+    <?php
+}
+

@@ -7,18 +7,18 @@ if (isset($title)) {
         $imdbUrl = $imdb ?? '';
     }
     ?>
-    <div class="container container-fluid">
+    <div class="container container-fluid" style="border: 1px dashed black; padding: 5px;">
         <div style="font-size: 18px;font-weight: bold;" class="label label-success">
             Coming up - <?php echo isset($premiere) ? $premiere : '' ?>
         </div>
         <div style="font-size: 16px;font-weight: bold;">
             <a href="<?php echo $imdbUrl; ?>"><?php echo $title ?></a>
         </div>
-        <div>
+        <div style="text-align: right;">
             <a href="https://mcu.earth616.org/pages/viewpage.action?pageId=82018343"
                target="_blank"
-               style="text-decoration: none;">
-                Information provided by earth616.org
+               style="text-decoration: none; font-weight: bold; font-style: italic;">
+                Information provided by Earth616.ORG Live API
             </a>
         </div>
     </div>

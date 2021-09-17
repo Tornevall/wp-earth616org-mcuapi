@@ -1,4 +1,4 @@
-# Earth616.ORG - Marvel MCU Timeline Widget
+# Earth616.ORG - Marvel MCU Timeline Widget for WordPress
 
 This is a widget for WordPress that utilizes the [Earth616.ORG MCU Timeline API.](https://mcu.earth616.org/display/TORNEVALL/Marvel+MCU+Timeline+API). Instead of having [a static information page like this](https://mcu.earth616.org/pages/viewpage.action?pageId=54132764), this WordPress widget makes it possible to have a live update view with information about Marvel movies and TV-shows, with dates when they are expected to premiere.
 

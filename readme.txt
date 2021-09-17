@@ -1,4 +1,4 @@
-=== earth616.org - MCU Timeline API ===
+=== Earth616.ORG - Marvel MCU Timeline Widget ===
 Contributors: Tornevall
 Donate link:
 Tags:

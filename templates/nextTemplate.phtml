@@ -6,11 +6,14 @@ if (isset($title)) {
     } else {
         $imdbUrl = $imdb ?? '';
     }
-
     ?>
     <div class="container container-fluid">
-        <div style="font-size: 18px;font-weight: bold;" class="label label-success">Up next ...</div>
-        <div style="font-size: 16px;font-weight: bold;"><a href="<?php echo $imdbUrl; ?>"><?php echo $title ?></a></div>
+        <div style="font-size: 18px;font-weight: bold;" class="label label-success">
+            Coming up - <?php echo isset($premiere) ? $premiere : '' ?>
+        </div>
+        <div style="font-size: 16px;font-weight: bold;">
+            <a href="<?php echo $imdbUrl; ?>"><?php echo $title ?></a>
+        </div>
         <div>
             <a href="https://mcu.earth616.org/pages/viewpage.action?pageId=82018343"
                target="_blank"
